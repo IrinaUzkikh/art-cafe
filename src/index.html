@@ -8,59 +8,47 @@
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
 </head>
 <body class = "body">
-    <header class = "header">
-        <p class = "title">Арт-кафе <span class = title__name>"Африка"</span></p>
-        <p>Телефон: <b>+7(999)999-99-99</b></p>
+  <header class = "content">
+    <p class = "title">Арт-кафе <span class = title__name>"Африка"</span></p>
+    <p>Телефон: <b>+7 (999) 999-99-99</b></p>
     <ul class = "terms-of-delivery">Условия доставки
-        <li class = "terms-of-delivery__element">Доставка осуществляется с 08:00 до 23:00</li>
-        <li class = "terms-of-delivery__element">Заказы принимаются с 07:00 до 21:00</li>
-        <li class = "terms-of-delivery__element">Доставка в пределах МКАД от 2000 рублей бесплатно</li>
-        <li class = "terms-of-delivery__element">Минимальная сумма заказа - 500 рублей</li>
-        <li class = "terms-of-delivery__element">Мы Вам обязательно перезвоним для уточнения деталей заказа</li>
-        </ul>
-      
-    </header>
-     
-      <iframe class = "popup" id="blockForm" src="https://docs.google.com/forms/d/e/1FAIpQLSfE8t4l3yBcIKaB8aRZeWzce3n8zVEzgbp4OkvHX9RrxOWwSQ/viewform?embedded=true" width="640" height="1611" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
-  <!--
-   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfE8t4l3yBcIKaB8aRZeWzce3n8zVEzgbp4OkvHX9RrxOWwSQ/viewform?embedded=true" width="640" height="1819" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>   
-   <div class="popup" id="blockForm">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfE8t4l3yBcIKaB8aRZeWzce3n8zVEzgbp4OkvHX9RrxOWwSQ/viewform?embedded=true" width="640" height="1819" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
-
-      </div> 
-   -->  
-    <section class = "photo">
-        <div class = "block" id="blockTopLeft">
-            <img class = "image" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-            <p>Холодные закуски</p>
-        </div>
-        <div class = "block" id="blockTopRight">
-            <img class = "image" src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-            <p>Пицца, пироги</p>
-        </div>
-        <div class = "block" id="blockBottomLeft">
-            <img class = "image" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-            <p>Горячие блюда</p>
-        </div>
-        <div class = "block" id="blockBottomRight">
-          <img class = "image" src="https://images.unsplash.com/photo-1469533778471-92a68acc3633?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80">
-          <p>Десерты</p>
-        </div>
-    </section>
-    <header class = "header">
-        <p class = "title">Арт-кафе <span class = title__name>"Африка"</span></p>
-        <p>Телефон: <b>+7(999)999-99-99</b></p>
-    <ul class = "terms-of-delivery">Условия доставки
-        <li class = "terms-of-delivery__element">Заказы принимаются с 07:00 до 21:00</li>
-        <li class = "terms-of-delivery__element">Доставка в пределах МКАД от 2000 рублей бесплатно</li>
+      <li class = "terms-of-delivery__element">Доставка осуществляется с 08:00 до 23:00</li>
+      <li class = "terms-of-delivery__element">Заказы принимаются с 07:00 до 21:00</li>
+      <li class = "terms-of-delivery__element">Доставка в пределах МКАД бесплатно</li>
+      <li class = "terms-of-delivery__element">Минимальная сумма заказа - 800 рублей</li>
+      <li class = "terms-of-delivery__element">Мы Вам обязательно перезвоним для уточнения деталей заказа</li>
     </ul>
-      
-    </header>
-  <!--  <h1>Hello</h1>
-    <img src="<%=require('./images/image_01.jpg').default%>">
-    <img src="<%=require('./images/logout.png').default%>">
-    
-   -->
-    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  </header>
+     
+  <div class="popup" id="blockForm">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfE8t4l3yBcIKaB8aRZeWzce3n8zVEzgbp4OkvHX9RrxOWwSQ/viewform?embedded=true" width="640" height="888" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+  </div> 
+  <section class = "photo">
+    <div class = "block" id="blockTopLeft">
+      <img class = "image" alt="image" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+        <p>Холодные закуски</p>
+    </div>
+    <div class = "block" id="blockTopRight">
+      <img class = "image" alt="image" src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+        <p>Пицца, пироги</p>
+    </div>
+    <div class = "block" id="blockBottomLeft">
+      <img class = "image" alt="image" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+      <p>Горячие блюда</p>
+    </div>
+    <div class = "block" id="blockBottomRight">
+      <img class = "image" alt="image" src="https://images.unsplash.com/photo-1469533778471-92a68acc3633?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80">
+      <p>Десерты</p>
+    </div>
+  </section>
+  <footer class = "content">
+    <p class = "title">Арт-кафе <span class = title__name>"Африка"</span></p>
+    <p>Телефон: <b>+7 (999) 999-99-99</b></p>
+    <ul class = "terms-of-delivery">Условия доставки
+      <li class = "terms-of-delivery__element">Заказы принимаются с 07:00 до 21:00</li>
+      <li class = "terms-of-delivery__element">Доставка в пределах МКАД от 2000 рублей бесплатно</li>
+    </ul>
+  </footer>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html>
